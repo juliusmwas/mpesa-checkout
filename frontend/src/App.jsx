@@ -1,7 +1,7 @@
-export default function App() {
-  return (
-    <>
-      <h1 className="text-3xl font-bold text-blue-600">M-Pesa Checkout</h1>
-    </>
-  );
+import Checkout from "./pages/Checkout";
+
+function App() {
+  return <Checkout />;
 }
+
+export default App;
